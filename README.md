@@ -95,6 +95,8 @@ private void reSize(int size) {
 
 ```
 ## **四、HashMap结构**
-
+![  ](https://github.com/TF27674569/HashMap/blob/master/app/hashmap.bmp) 
 HashMap采用数组+链表的结构能有效的提高存储查询的效率但是在空间结构上比较复杂
+进过hash算法后能平均分布在数组上，
+而数组同一位置需要新添加数据时，将会把之前的值往下压并将next指向之前的对象
 
